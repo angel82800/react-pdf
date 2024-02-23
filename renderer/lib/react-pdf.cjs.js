@@ -4221,8 +4221,8 @@ var pdf = function pdf(initialValue) {
   /*
    * TODO: remove this method in next major release. it is buggy
    * see
-   * - https://github.com/diegomura/react-pdf/issues/2112
-   * - https://github.com/diegomura/react-pdf/issues/2095
+   * - https://github.com/diegomura/@react-pdf/issues/2112
+   * - https://github.com/diegomura/@react-pdf/issues/2095
    */
   var toString = /*#__PURE__*/function () {
     var _ref4 = _asyncToGenerator__default["default"]( /*#__PURE__*/_regeneratorRuntime__default["default"]().mark(function _callee4() {
