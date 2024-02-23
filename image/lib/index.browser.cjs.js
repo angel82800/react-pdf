@@ -5,7 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var _regeneratorRuntime = require('@babel/runtime/helpers/regeneratorRuntime');
 var _asyncToGenerator = require('@babel/runtime/helpers/asyncToGenerator');
 var fetch = require('cross-fetch');
-var PNG = require('@react-pdf/png-js');
+var PNG = require('react-pdf/png-js');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

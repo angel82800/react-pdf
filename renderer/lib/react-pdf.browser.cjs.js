@@ -3,15 +3,15 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var _extends = require('@babel/runtime/helpers/extends');
-var primitives = require('@react-pdf/primitives');
+var primitives = require('react-pdf/primitives');
 var queue = require('queue');
 var require$$1 = require('react');
 var _regeneratorRuntime = require('@babel/runtime/helpers/regeneratorRuntime');
 var _asyncToGenerator = require('@babel/runtime/helpers/asyncToGenerator');
-var FontStore = require('@react-pdf/font');
-var renderPDF = require('@react-pdf/render');
-var PDFDocument = require('@react-pdf/pdfkit');
-var layoutDocument = require('@react-pdf/layout');
+var FontStore = require('react-pdf/font');
+var renderPDF = require('react-pdf/render');
+var PDFDocument = require('react-pdf/pdfkit');
+var layoutDocument = require('react-pdf/layout');
 var _objectWithoutPropertiesLoose = require('@babel/runtime/helpers/objectWithoutPropertiesLoose');
 var require$$0 = require('object-assign');
 var scheduler = require('scheduler');

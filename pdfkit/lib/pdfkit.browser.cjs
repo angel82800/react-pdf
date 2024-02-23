@@ -13,7 +13,7 @@ var _createClass$2 = require('@babel/runtime/helpers/createClass');
 var MD5 = require('crypto-js/md5.js');
 var fontkit = require('fontkit');
 var exif = require('jpeg-exif');
-var PNG = require('@react-pdf/png-js');
+var PNG = require('react-pdf/png-js');
 var _extends = require('@babel/runtime/helpers/extends');
 var CryptoJS = require('crypto-js/core.js');
 

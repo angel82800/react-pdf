@@ -1,4 +1,4 @@
-import { compose, castArray } from '@react-pdf/fns';
+import { compose, castArray } from 'react-pdf/fns';
 import parse$1 from 'postcss-value-parser/lib/parse';
 import parseUnit from 'postcss-value-parser/lib/unit';
 import hlsToHex from 'hsl-to-hex';
@@ -32,7 +32,7 @@ var expandFlex = function expandFlex(key, value) {
 /* eslint-disable no-plusplus */
 var BOX_MODEL_UNITS = 'px,in,mm,cm,pt,%,vw,vh';
 var logError = function logError(style, value) {
-  console.error("\n    @react-pdf/stylesheet parsing error:\n\n    " + style + ": " + value + ",\n    " + ' '.repeat(style.length + 2) + "^\n    Unsupported " + style + " value format\n  ");
+  console.error("\n    react-pdf/stylesheet parsing error:\n\n    " + style + ": " + value + ",\n    " + ' '.repeat(style.length + 2) + "^\n    Unsupported " + style + " value format\n  ");
 };
 var expandBoxModel = function expandBoxModel(_temp) {
   var _ref = _temp === void 0 ? {} : _temp,

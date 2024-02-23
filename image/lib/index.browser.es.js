@@ -1,7 +1,7 @@
 import _regeneratorRuntime from '@babel/runtime/helpers/regeneratorRuntime';
 import _asyncToGenerator from '@babel/runtime/helpers/asyncToGenerator';
 import fetch from 'cross-fetch';
-import PNG from '@react-pdf/png-js';
+import PNG from 'react-pdf/png-js';
 
 var global$1 = (typeof global !== "undefined" ? global :
   typeof self !== "undefined" ? self :

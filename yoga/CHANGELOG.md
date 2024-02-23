@@ -1,4 +1,4 @@
-# @react-pdf/yoga
+# react-pdf/yoga
 
 ## 4.1.2
 

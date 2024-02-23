@@ -2,18 +2,18 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var fns = require('@react-pdf/fns');
-var P = require('@react-pdf/primitives');
-var stylesheet = require('@react-pdf/stylesheet');
-var layoutEngine = require('@react-pdf/textkit');
+var fns = require('react-pdf/fns');
+var P = require('react-pdf/primitives');
+var stylesheet = require('react-pdf/stylesheet');
+var layoutEngine = require('react-pdf/textkit');
 var _createClass = require('@babel/runtime/helpers/createClass');
-var pdfkit = require('@react-pdf/pdfkit');
+var pdfkit = require('react-pdf/pdfkit');
 var _regeneratorRuntime = require('@babel/runtime/helpers/regeneratorRuntime');
 var _asyncToGenerator = require('@babel/runtime/helpers/asyncToGenerator');
 var _extends = require('@babel/runtime/helpers/extends');
 var emojiRegex = require('emoji-regex');
-var resolveImage = require('@react-pdf/image');
-var Yoga = require('@react-pdf/yoga');
+var resolveImage = require('react-pdf/image');
+var Yoga = require('react-pdf/yoga');
 var _objectWithoutPropertiesLoose = require('@babel/runtime/helpers/objectWithoutPropertiesLoose');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
@@ -842,7 +842,7 @@ var getSource = function getSource(node) {
 };
 
 /**
- * Resolves `src` to `@react-pdf/image` interface.
+ * Resolves `src` to `react-pdf/image` interface.
  *
  * Also it handles factories and async sources.
  *

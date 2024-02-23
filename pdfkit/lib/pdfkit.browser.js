@@ -9,7 +9,7 @@ import _createClass$2 from '@babel/runtime/helpers/createClass';
 import MD5 from 'crypto-js/md5.js';
 import * as fontkit from 'fontkit';
 import exif from 'jpeg-exif';
-import PNG from '@react-pdf/png-js';
+import PNG from 'react-pdf/png-js';
 import _extends from '@babel/runtime/helpers/extends';
 import * as CryptoJS from 'crypto-js/core.js';
 

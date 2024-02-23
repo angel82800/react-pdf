@@ -8,7 +8,7 @@ import MD5 from 'crypto-js/md5.js';
 import * as fontkit from 'fontkit';
 import fs from 'fs';
 import exif from 'jpeg-exif';
-import PNG from '@react-pdf/png-js';
+import PNG from 'react-pdf/png-js';
 import _extends from '@babel/runtime/helpers/extends';
 import * as CryptoJS from 'crypto-js/core.js';
 

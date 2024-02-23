@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var P = require('@react-pdf/primitives');
-var fns = require('@react-pdf/fns');
+var P = require('react-pdf/primitives');
+var fns = require('react-pdf/fns');
 var absPath = require('abs-svg-path');
 var parsePath = require('parse-svg-path');
 var normalizePath = require('normalize-svg-path');

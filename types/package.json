@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/types",
+  "name": "react-pdf/types",
   "version": "2.3.4",
   "license": "MIT",
   "description": "React-pdf TypeScript definitions",

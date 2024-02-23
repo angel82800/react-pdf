@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var fns = require('@react-pdf/fns');
+var fns = require('react-pdf/fns');
 var _extends = require('@babel/runtime/helpers/extends');
 var _objectWithoutPropertiesLoose = require('@babel/runtime/helpers/objectWithoutPropertiesLoose');
 var _createForOfIteratorHelperLoose = require('@babel/runtime/helpers/createForOfIteratorHelperLoose');

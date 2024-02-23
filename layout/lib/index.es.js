@@ -1,16 +1,16 @@
-import { upperFirst, capitalize, last, pick, compose, mapValues, matchPercent, evolve, isNil, get, castArray, omit, asyncCompose } from '@react-pdf/fns';
-import * as P from '@react-pdf/primitives';
-import { TextInstance } from '@react-pdf/primitives';
-import stylesheet, { transformColor, processTransform, flatten } from '@react-pdf/stylesheet';
-import layoutEngine, { linebreaker, justification, textDecoration, scriptItemizer, wordHyphenation } from '@react-pdf/textkit';
+import { upperFirst, capitalize, last, pick, compose, mapValues, matchPercent, evolve, isNil, get, castArray, omit, asyncCompose } from 'react-pdf/fns';
+import * as P from 'react-pdf/primitives';
+import { TextInstance } from 'react-pdf/primitives';
+import stylesheet, { transformColor, processTransform, flatten } from 'react-pdf/stylesheet';
+import layoutEngine, { linebreaker, justification, textDecoration, scriptItemizer, wordHyphenation } from 'react-pdf/textkit';
 import _createClass from '@babel/runtime/helpers/createClass';
-import { PDFFont } from '@react-pdf/pdfkit';
+import { PDFFont } from 'react-pdf/pdfkit';
 import _regeneratorRuntime from '@babel/runtime/helpers/regeneratorRuntime';
 import _asyncToGenerator from '@babel/runtime/helpers/asyncToGenerator';
 import _extends from '@babel/runtime/helpers/extends';
 import emojiRegex from 'emoji-regex';
-import resolveImage from '@react-pdf/image';
-import Yoga from '@react-pdf/yoga';
+import resolveImage from 'react-pdf/image';
+import Yoga from 'react-pdf/yoga';
 import _objectWithoutPropertiesLoose from '@babel/runtime/helpers/objectWithoutPropertiesLoose';
 
 /**
@@ -807,7 +807,7 @@ var getSource = function getSource(node) {
 };
 
 /**
- * Resolves `src` to `@react-pdf/image` interface.
+ * Resolves `src` to `react-pdf/image` interface.
  *
  * Also it handles factories and async sources.
  *

@@ -4,7 +4,7 @@ import fs from 'fs';
 import url from 'url';
 import path from 'path';
 import fetch from 'cross-fetch';
-import PNG from '@react-pdf/png-js';
+import PNG from 'react-pdf/png-js';
 
 PNG.isValid = function (data) {
   try {

@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { isNil, matchPercent } from '@react-pdf/fns';
+import * as P from 'react-pdf/primitives';
+import { isNil, matchPercent } from 'react-pdf/fns';
 import absPath from 'abs-svg-path';
 import parsePath from 'parse-svg-path';
 import normalizePath from 'normalize-svg-path';

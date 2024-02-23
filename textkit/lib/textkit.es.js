@@ -1,4 +1,4 @@
-import { isNil, last, dropLast as dropLast$2, adjust, compose } from '@react-pdf/fns';
+import { isNil, last, dropLast as dropLast$2, adjust, compose } from 'react-pdf/fns';
 import _extends from '@babel/runtime/helpers/extends';
 import _objectWithoutPropertiesLoose from '@babel/runtime/helpers/objectWithoutPropertiesLoose';
 import _createForOfIteratorHelperLoose from '@babel/runtime/helpers/createForOfIteratorHelperLoose';

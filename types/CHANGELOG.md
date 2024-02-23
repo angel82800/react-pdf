@@ -1,4 +1,4 @@
-# @react-pdf/types
+# react-pdf/types
 
 ## 2.3.4
 

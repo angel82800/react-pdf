@@ -8,7 +8,7 @@ var fs = require('fs');
 var url = require('url');
 var path = require('path');
 var fetch = require('cross-fetch');
-var PNG = require('@react-pdf/png-js');
+var PNG = require('react-pdf/png-js');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

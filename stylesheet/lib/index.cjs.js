@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var fns = require('@react-pdf/fns');
+var fns = require('react-pdf/fns');
 var parse$1 = require('postcss-value-parser/lib/parse');
 var parseUnit = require('postcss-value-parser/lib/unit');
 var hlsToHex = require('hsl-to-hex');
@@ -45,7 +45,7 @@ var expandFlex = function expandFlex(key, value) {
 /* eslint-disable no-plusplus */
 var BOX_MODEL_UNITS = 'px,in,mm,cm,pt,%,vw,vh';
 var logError = function logError(style, value) {
-  console.error("\n    @react-pdf/stylesheet parsing error:\n\n    " + style + ": " + value + ",\n    " + ' '.repeat(style.length + 2) + "^\n    Unsupported " + style + " value format\n  ");
+  console.error("\n    react-pdf/stylesheet parsing error:\n\n    " + style + ": " + value + ",\n    " + ' '.repeat(style.length + 2) + "^\n    Unsupported " + style + " value format\n  ");
 };
 var expandBoxModel = function expandBoxModel(_temp) {
   var _ref = _temp === void 0 ? {} : _temp,
